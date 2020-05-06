@@ -1,0 +1,53 @@
+html{
+    background-color: #fff; 
+}
+
+/*passionné
+==============*/
+header{
+    background-image: url(../ressource/image/audi.jpg);
+    background-size: cover;
+    background-position:center;
+    height: 100vh;
+}
+
+.home-title h1{
+    margin: 10px;
+    text-align: center;
+}
+.site{
+    color: #baaaaa;
+    position: absolute;
+    top: 80px;
+    left: 10px;
+    
+}
+.passion{
+    color: #433838;
+    position: absolute;
+    top: 250px;
+    right: 40px;
+    
+}
+.car{
+    color: #434242;
+    font-size: 700;
+    position: absolute;
+    top: 550px;
+    right: 10px;
+}
+
+.site:hover{
+    background-image: url(../ressource/image/audiRS8.jpg);
+    transition: 1s;
+    color: transparent;
+}
+.passion:hover{
+    border-radius: 10px;
+    border-color: red;
+}
+.car:hover{
+    font-weight: 800;
+    transition: 1s;
+    color: orangered;
+}
